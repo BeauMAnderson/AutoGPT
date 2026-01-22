@@ -1,63 +1,87 @@
-# AutoGPT docs
+# AutoGPT Documentation
 
-Welcome to the AutoGPT Docs.
+Welcome to the AutoGPT Documentation.
 
-The AutoGPT project has been divided into four distinct sections: [Agents](#welcome-to-the-heart-of-autogpt), [Benchmarks](#autogpt-benchmarks), [Forge](#autogpt-forge), and [Frontend](#frontend)
+## What is the AutoGPT Platform?
 
----
+The AutoGPT Platform is a groundbreaking system that revolutionizes AI utilization for businesses and individuals. It enables the creation, deployment, and management of continuous agents that work tirelessly on your behalf, bringing unprecedented efficiency and innovation to your workflows.
 
-## [Welcome to the heart of AutoGPT](AutoGPT/setup.md)
+### Key Features
 
-Welcome to the heart of AutoGPT, the project that kicked it all off: a semi-autonomous agent powered by LLMs to execute any task for you*.
+- **Seamless Integration and Low-Code Workflows**: Rapidly create complex workflows without extensive coding knowledge.
+- **Autonomous Operation and Continuous Agents**: Deploy cloud-based assistants that run indefinitely, activating on relevant triggers.
+- **Intelligent Automation and Maximum Efficiency**: Streamline workflows by automating repetitive processes.
+- **Reliable Performance and Predictable Execution**: Enjoy consistent and dependable long-running processes.
 
-We continue to develop this project with the goal of providing access to AI assistance to the masses, and building the future transparently and together.
+## Platform Architecture
 
-- 💡 **Explore** - See what AI can do and be inspired by a glimpse of the future.
+The AutoGPT Platform consists of two main components:
 
-- 🚀 **Build with us** - We welcome any input, whether it's code or ideas for new features or improvements! Join us on [Discord](https://discord.gg/autogpt) and find out how you can join in on the action.
+### 1. AutoGPT Server
 
-<small>* it isn't quite there yet, but that is the ultimate goal that we are still pursuing</small>
+The powerhouse of our platform, containing:
 
----
+-  **Source Code**: Core logic driving agents and automation processes.
+-  **Infrastructure**: Robust systems ensuring reliable and scalable performance.
+-  **Marketplace**: A comprehensive marketplace for pre-built agents.
 
-## [AutoGPT-Benchmarks](benchmarks/benchmark.md)
+### 2. AutoGPT Frontend
 
-Test to impress with AutoGPT Benchmarks! Our benchmarking system offers a stringent testing environment to evaluate your agents objectively. 
+The user interface where you interact with the platform:
 
-- 📈 **Top Performance** - Among our currently benchmarked agents, AutoGPT consistently scores the best. The top-performing generalist agent will earn its position as the primary AutoGPT post-hackathon.
+-  **Agent Builder**: Design and configure your own AI agents.
+-  **Workflow Management**: Build, modify, and optimize automation workflows.
+-  **Deployment Controls**: Manage the lifecycle of your agents.
+-  **Ready-to-Use Agents**: Select from pre-configured agents.
+-  **Agent Interaction**: Run and interact with agents through a user-friendly interface.
+-  **Monitoring and Analytics**: Track agent performance and gain insights.
 
-- 🔌 **Agent Protocol Standardization** - AutoGPT uses the agent protocol from the AI Engineer Foundation to ensure seamless compatibility.
+##  Platform Components
 
----
+### Agents and Workflows
 
-## [AutoGPT-Forge](forge/get-started.md)
+In the platform, you can create highly customized workflows to build agents. An agent is essentially an automated workflow that you design to perform specific tasks or processes. Create customized workflows to build agents for various tasks, including:
 
-Forge your future with AutoGPT! The Forge is your innovation lab.
+- Data processing and analysis
+- Task scheduling and management
+- Communication and notification systems
+- Integration between different software tools
+- AI-powered decision making and content generation
 
-- 🏗️ **Building with Ease** - We've set the groundwork so you can focus on your agent's personality and capabilities. Comprehensive tutorials are available [Here](https://aiedge.medium.com/autogpt-forge-e3de53cc58ec).
+### Blocks as Integrations
 
----
+Blocks represent actions and are the building blocks of your workflows, including:
 
-## [Frontend](front-end/the-ui.md)
+- Connections to external services
+- Data processing tools
+- AI models for various tasks
+- Custom scripts or functions
+- Conditional logic and decision-making components
 
-Harness your AI journey with the AutoGPT FrontEnd.
+You can learn more under: [Build your own Blocks](platform/new_blocks.md)
 
-- 🎮 **User-Friendly Interface** - Manage your agents effortlessly.
+## Available Language Models
 
-- 🔄 **Seamless Integration** - Smooth connectivity between your agent and our benchmarking system.
+The platform comes pre-integrated with cutting-edge LLM providers:
 
----
+- OpenAI - https://openai.com/
+- Anthropic - https://www.anthropic.com/
+- Groq - https://groq.com/
+- Llama - https://llamaindex.ai/
+- AI/ML API - [https://aimlapi.com/](https://aimlapi.com/?utm_source=autogpt&utm_medium=github&utm_campaign=integration)
+  - AI/ML API provides 300+ AI models including Deepseek, Gemini, ChatGPT. The models run at enterprise-grade rate limits and uptimes.
 
-[Join the AutoGPT Discord server for any queries](discord.gg/autogpt)
+## License Overview 
 
-### Glossary of Terms
+We've adopted a dual-license approach to balance open collaboration with sustainable development:
 
-- **Repository**: Space where your project resides.
-- **Forking**: Copying a repository under your account.
-- **Cloning**: Making a local copy of a repository.
-- **Agent**: The AutoGPT you'll create and develop.
-- **Benchmarking**: Testing your agent's skills in the Forge.
-- **Forge**: The template for building your AutoGPT agent.
-- **Frontend**: The UI for tasks, logs, and task history.
+- **MIT License**: The majority of the AutoGPT repository remains under this license.
+- **Polyform Shield License**: Applies to the new `autogpt_platform` folder.
 
----
+This strategy allows us to share previously closed-source components, fostering a vibrant ecosystem of developers and users.
+
+## Ready to Get Started?
+
+- Read the [Getting Started docs](https://docs.agpt.co/platform/getting-started/) to self-host
+- [Join the waitlist](https://agpt.co/waitlist) for the cloud-hosted beta
+- [Contribute](contribute/index.md)
